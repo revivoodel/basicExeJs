@@ -7,4 +7,10 @@ let number = 58423; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let sum = 0;
+let numberConvert = Number(number);
+while (numberConvert != 0) {
+    sum += numberConvert % 10;
+    numberConvert = Math.trunc(numberConvert/=10);
+}
+console.log(`Sum is ${sum}`);
