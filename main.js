@@ -11,4 +11,13 @@ let rows = 4; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+let row = "";
+for(let i = 0; i<rows;i++){
+    for (let j = 0; j <= i; j++) {
+        row+="*";
+    }
+    console.log(row);
+    row="";
 
+
+}
