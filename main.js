@@ -8,3 +8,10 @@ let number = 10045; // INPUT
 
 // write your code below this line
 
+let sum = 0;
+let numberConvert = Number(number);
+while (numberConvert != 0) {
+    sum ++;
+    numberConvert = Math.trunc(numberConvert/=10);
+}
+console.log(sum);
