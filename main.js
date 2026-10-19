@@ -12,3 +12,10 @@ let fifth = 5; // INPUT
 
 // write your code below this line
 
+let max= first;
+
+max = max < second ? second : max;
+max = max < third ? third : max;
+max = max < fourth ? fourth : max;
+max = max < fifth ? fifth : max;
+console.log(max);
