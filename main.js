@@ -9,3 +9,11 @@ let number = 1234; // INPUT
 
 // write your code below this line
 
+let sum = 0;
+let numberConvert = Number(number);
+while (numberConvert != 0) {
+    sum*=10;
+    sum += numberConvert % 10;
+    numberConvert = Math.trunc(numberConvert/=10);
+}
+console.log(sum);
