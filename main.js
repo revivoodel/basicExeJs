@@ -7,4 +7,8 @@ let end = 10; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+(start%2!=0)?start++:start;
+for(let i = start; i<=end;i+=2){
+    console.log(i);
+    
+}
