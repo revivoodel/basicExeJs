@@ -11,3 +11,14 @@ let number = 6; // INPUT
 
 // write your code below this line
 
+while (number != 1) {
+    if (number % 2 === 0) {
+        number /= 2;
+        console.log(number);
+    }
+    else {
+        number *= 3;
+        number++;
+        console.log(number);
+    }
+}
